@@ -1,5 +1,6 @@
 # thrift-gen-validator
 
+copy from cloudwego/thrift-gen-validator
 thrift-gen-validator is a thriftgo plugin to generate struct validators.
 Users can define validation rule for struct-like(struct/union/exception) in Thrift file, then the generator will generate `IsValid() error` method for those structs.
 
